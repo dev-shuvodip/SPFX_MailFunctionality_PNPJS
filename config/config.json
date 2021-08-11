@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spf-xmail-send-pocpnpjs-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfXmailSendPocpnpjsWebpart/SpfXmailSendPocpnpjsWebpartWebPart.js",
+          "manifest": "./src/webparts/spfXmailSendPocpnpjsWebpart/SpfXmailSendPocpnpjsWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfXmailSendPocpnpjsWebpartWebPartStrings": "lib/webparts/spfXmailSendPocpnpjsWebpart/loc/{locale}.js"
+  }
+}
